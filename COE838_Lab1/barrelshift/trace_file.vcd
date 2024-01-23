@@ -1,0 +1,144 @@
+$date
+     Jan 22, 2024       19:58:19
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Jan 19 2024 18:36:00
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clk       $end
+$var wire    1  aaaab  enable       $end
+$var wire    1  aaaac  left_data       $end
+$var wire    1  aaaad  right_data       $end
+$var wire    1  aaaae  left_right_signal       $end
+$var wire    8  aaaaf  data_out [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+0aaaab
+0aaaac
+0aaaad
+0aaaae
+b0 aaaaf
+$end
+
+#5
+0aaaaa
+
+#9
+1aaaab
+1aaaac
+
+#10
+1aaaaa
+b1 aaaaf
+
+#15
+0aaaaa
+
+#20
+1aaaaa
+b11 aaaaf
+
+#25
+0aaaaa
+
+#30
+1aaaaa
+b111 aaaaf
+
+#35
+0aaaaa
+
+#40
+1aaaaa
+b1111 aaaaf
+
+#45
+0aaaaa
+
+#50
+1aaaaa
+b11111 aaaaf
+
+#55
+0aaaaa
+
+#60
+1aaaaa
+b111111 aaaaf
+
+#65
+0aaaaa
+
+#69
+1aaaae
+
+#70
+1aaaaa
+b11111 aaaaf
+
+#75
+0aaaaa
+
+#79
+0aaaab
+
+#80
+1aaaaa
+
+#85
+0aaaaa
+
+#89
+1aaaab
+0aaaac
+1aaaad
+
+#90
+1aaaaa
+b10001111 aaaaf
+
+#95
+0aaaaa
+
+#100
+1aaaaa
+b11000111 aaaaf
+
+#105
+0aaaaa
+
+#110
+1aaaaa
+b11100011 aaaaf
+
+#115
+0aaaaa
+
+#120
+1aaaaa
+b11110001 aaaaf
+
+#125
+0aaaaa
+
+#130
+1aaaaa
+b11111000 aaaaf
+
+#135
+0aaaaa
+
+#139
