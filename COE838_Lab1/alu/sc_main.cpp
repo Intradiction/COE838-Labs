@@ -122,6 +122,15 @@ int sc_main(int argc, char* argv[]) {
     left_right.write(1);
     shift_amt.write(0);
     sc_start(10, SC_NS);
+
+    // Test addition with right shift 8 | 7 + (96>>8) = 7
+    op.write(1);
+    a_in.write(7);
+    b_in.write(96);
+    enable.write(1);
+    left_right.write(1);
+    shift_amt.write(8);
+    sc_start(10, SC_NS);
     
     sc_close_vcd_trace_file(tf);
 

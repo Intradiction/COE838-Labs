@@ -1,5 +1,5 @@
 $date
-     Jan 24, 2024       09:36:56
+     Jan 24, 2024       09:48:17
 $end
 
 $version
@@ -80,3 +80,14 @@ b0 aaaag
 0aaaaa
 
 #50
+1aaaaa
+1aaaab
+b111 aaaac
+b1100000 aaaad
+b1000 aaaag
+
+#55
+0aaaaa
+b111 aaaah
+
+#60

@@ -25,7 +25,7 @@ SC_MODULE(barrel_shift)
 
 		if (enable.read() == 1)
 		{
-			result = output.read();
+			//result = output.read();
 			int shift_int = shift_amt.read().to_int();
 			// shift left
 			if (left_right.read() == 0)
@@ -50,6 +50,7 @@ SC_MODULE(barrel_shift)
 						if(j >= 0 && j <= 7)
 							result[i] = input.read()[j];
 					}
+
 			}
 			
 		}
