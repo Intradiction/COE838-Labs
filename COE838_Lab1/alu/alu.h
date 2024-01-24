@@ -13,6 +13,7 @@ SC_MODULE(alu) {
 
     // The method that handles ALU functionality
     void alu_method() {
+        cout << "ALU: ";
         sc_int<8> data;
         cout << "op = " << op.read() << " | a_in = " << a_in.read() << ", b_in = " << b_in.read() << ", output = ";
 
