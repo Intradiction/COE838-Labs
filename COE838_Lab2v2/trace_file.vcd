@@ -1,0 +1,59 @@
+$date
+     Feb 02, 2024       09:50:53
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Jan 19 2024 18:36:00
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    8  aaaaa  MSB_output_cpa [7:0]  $end
+$var wire   16  aaaab  Product [15:0]  $end
+$var wire    8  aaaac  Sum_CSA_output [7:0]  $end
+$var wire    8  aaaad  Carry_CSA_output [7:0]  $end
+$var wire    8  aaaae  B_input_whole_module [7:0]  $end
+$var wire    8  aaaaf  A_input_whole_module [7:0]  $end
+$var wire    8  aaaag  LSB_output_cpa [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b0 aaaaa
+b110 aaaab
+b0 aaaac
+b0 aaaad
+b10 aaaae
+b11 aaaaf
+b110 aaaag
+$end
+
+#20
+b0 aaaab
+b101100 aaaae
+b0 aaaaf
+b0 aaaag
+
+#40
+b1010001 aaaab
+b1001 aaaae
+b1001 aaaaf
+b1010001 aaaag
+
+#60
+b11111110 aaaaa
+b1111111000000001 aaaab
+b11111110 aaaac
+b1111111 aaaad
+b11111111 aaaae
+b11111111 aaaaf
+b1 aaaag
+
+#80

@@ -69,24 +69,6 @@ int sc_main(int argc, char* argv[]) {
     shift_amt.write(1);
     sc_start(10, SC_NS);
 
-    // // Test addition | 2 + 3 = 5
-    // op.write(1);
-    // a_in.write(2);
-    // b_in.write(3);
-    // sc_start(10, SC_NS);
-    
-    // // Test subtraction | 4 - 1 = 3
-    // op.write(0);
-    // a_in.write(4);
-    // b_in.write(1);
-    // sc_start(10, SC_NS);
-
-    // // Test subtraction with negative difference | 5 - 7 = -2
-    // op.write(0);
-    // a_in.write(5);
-    // b_in.write(7);
-    // sc_start(10, SC_NS);
-
     // Test addition with left shift | 2 + (3<<1) = 8
     op.write(1);
     a_in.write(2);
