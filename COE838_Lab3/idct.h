@@ -6,7 +6,7 @@
 
 struct idct : sc_module{
 
-
+    void calculate_idct();
 
 
 
