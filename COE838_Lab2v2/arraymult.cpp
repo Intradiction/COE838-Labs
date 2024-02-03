@@ -53,7 +53,7 @@ int z = 0;
 
 void CPA ::CPA_method()
 {
-    cout << "\n======= Array Multiplier Operation =======\n";
+    cout << "\n===================== Array Multiplier Operation =====================\n";
 
     //**************************************** CSA Method
     ain = A_input.read();
@@ -111,8 +111,11 @@ void CPA ::CPA_method()
                 }
             }
 
-            cout << "Sumout at ["<<i<<","<<j<<"] = "<<sum_holder[i][j] << " | ";
-            cout << "Carryout at ["<<i<<","<<j<<"] = "<<carryout_holder[i][j];
+            cout << "CSA["<<i<<","<<j<<"] : ";
+            cout << "A bit = " << ain[j] << ", B bit = " << bin[j] << " | ";
+            cout << "Carryin = "<< carryin << " | ";
+            cout << "Sumout = "<< sum_holder[i][j] << " | ";
+            cout << "Carryout = "<< carryout_holder[i][j] << " | ";
             cout << endl;
         }
     }
@@ -178,7 +181,7 @@ void CPA ::CPA_method()
             msb_val[x] = sum_cpa;
             carryout_holder_cpa[x] = carryout_cpa;
         }
-        //cout << sum_holder_cpa[x];
+        cout << "CPA " << x << " sumout = " << sum_holder_cpa[x] << endl;
     }
 
     msb_out.write(msb_val);

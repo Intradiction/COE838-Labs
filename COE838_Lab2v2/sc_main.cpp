@@ -33,7 +33,6 @@ int sc_main(int argc, char *argv[])
 
     CPA arraymult_DUT("CPA"); // Create Device Under Test (DUT)
 
-    // need to do module . .h variables
     arraymult_DUT.B_input(bin_cpa);
     arraymult_DUT.A_input(ain_cpa);
     arraymult_DUT.carry_in(carryin_cpa);
