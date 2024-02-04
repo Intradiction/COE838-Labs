@@ -100,7 +100,8 @@ sc_main.d: sc_main.cpp C:/cygwin64/sysclibs/include/systemc.h \
  C:/cygwin64/sysclibs/include/sysc/utils/sc_utils_ids.h \
  C:/cygwin64/sysclibs/include/sysc/utils/sc_pvector.h \
  C:/cygwin64/sysclibs/include/sysc/utils/sc_string_view.h \
- C:/cygwin64/sysclibs/include/sysc/utils/sc_vector.h functions.h fdct.h
+ C:/cygwin64/sysclibs/include/sysc/utils/sc_vector.h functions.h fdct.h \
+ idct.h
 C:/cygwin64/sysclibs/include/systemc.h:
 C:/cygwin64/sysclibs/include/systemc:
 C:/cygwin64/sysclibs/include/sysc/kernel/sc_cmnhdr.h:
@@ -206,3 +207,4 @@ C:/cygwin64/sysclibs/include/sysc/utils/sc_string_view.h:
 C:/cygwin64/sysclibs/include/sysc/utils/sc_vector.h:
 functions.h:
 fdct.h:
+idct.h:
